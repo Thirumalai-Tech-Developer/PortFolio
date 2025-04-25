@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "College": "Muthayammal College of Engineering",
+        "Course": "B.Tech Artificial Intelligence and Data Science",
+        "Year": "2021-2025",
+        "percent": "77"
+      },
+      {
+        "id": 2,
+        "College": "New Power Matric Higher Secondary School",
+        "Course": "HSC",
+        "Year": "2020-2021",
+        "percent": "77.3"
+      },
+      {
+        "id": 3,
+        "College": "New Power Matric Higher Secondary School",
+        "Course": "SSLC",
+        "Year": "2019-2020",
+        "percent": "72.2"
+      }
+]
