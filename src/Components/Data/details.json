@@ -2,6 +2,17 @@
     {
       "key": 1,
       "name": "Thirumalai G,",
-      "objective": "I am a fast learner with a passion for technology. I excel in adapting to new tools and frameworks quickly, and I am capable of managing projects independently or collaborating effectively within a team to deliver high-quality solutions."
+      "objective": "Hii!, I am Thirumalai from Kallakurichi. I'm a fast learner with a passion for technology. I excel in adapting to new tools and frameworks quickly, and I am capable of managing projects independently or collaborating effectively within a team to deliver high-quality solutions.",
+      "skills": [
+        "Python",
+        "AI/ML",
+        "JavaScript",
+        "React",
+        "Node.js",
+        "TailWind CSS",
+        "MySQL",
+        "Data Science"
+      ],
+      "role": "Tech Developer"
     }
 ]
