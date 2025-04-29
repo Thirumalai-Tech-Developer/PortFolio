@@ -545,6 +545,10 @@ video {
   display: none;
 }
 
+.fixed {
+  position: fixed;
+}
+
 .flex {
   display: flex;
 }
@@ -553,8 +557,32 @@ video {
   display: none;
 }
 
+.h-full {
+  height: 100%;
+}
+
+.h-screen {
+  height: 100vh;
+}
+
+.h-\[\] {
+  height: ;
+}
+
+.h-\[70\] {
+  height: 70;
+}
+
+.h-\[70\%\] {
+  height: 70%;
+}
+
 .w-\[50\%\] {
   width: 50%;
+}
+
+.w-full {
+  width: 100%;
 }
 
 .justify-center {
@@ -603,25 +631,36 @@ video {
   --tw-bg-opacity: 0.9;
 }
 
-.p-10 {
-  padding: 2.5rem;
+.bg-\[url\(\"\.\/Components\/Body\/Images\/About\.jpg\"\)\] {
+  background-image: url("./Components/Body/Images/About.jpg");
 }
 
-.p-2 {
-  padding: 0.5rem;
+.bg-cover {
+  background-size: cover;
+}
+
+.bg-center {
+  background-position: center;
+}
+
+.bg-no-repeat {
+  background-repeat: no-repeat;
+}
+
+.p-10 {
+  padding: 2.5rem;
 }
 
 .p-3 {
   padding: 0.75rem;
 }
 
-.p-\[10\%\] {
-  padding: 10%;
+.p-4 {
+  padding: 1rem;
 }
 
-.py-3 {
-  padding-top: 0.75rem;
-  padding-bottom: 0.75rem;
+.p-\[10\%\] {
+  padding: 10%;
 }
 
 .py-4 {
@@ -629,8 +668,8 @@ video {
   padding-bottom: 1rem;
 }
 
-.text-\[25px\] {
-  font-size: 25px;
+.text-\[50px\] {
+  font-size: 50px;
 }
 
 .text-base {
@@ -638,17 +677,13 @@ video {
   line-height: 1.5rem;
 }
 
-.text-\[50px\] {
-  font-size: 50px;
-}
-
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
 }
 
-.text-\[px\] {
-  color: px;
+.opacity-5 {
+  opacity: 0.05;
 }
 
 .duration-700 {

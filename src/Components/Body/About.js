@@ -3,12 +3,12 @@ import Data from '../Data/details.json'
 
 const About = () => {
   return (
-    <div className='flex justify-evenly p-2'>
+    <div className='flex justify-evenly p-4 bg-[url("./Components/Body/Images/About.jpg")] bg-cover bg-no-repeat bg-center w-full'>
       <div className='flex justify-center p-10 bg-slate-800 bg-opacity-30 hover:bg-opacity-45 duration-700 rounded-2xl sm:w-[90%] md:w-[90%] lg:w-[50%] text-base sm:text-md md:text-xl lg:text-lg xl:text-xl'>
         {
           Data.map((i) => {
             return (
-              <div key={i.key}>
+              <div key={i.key} className='text-white'>
                 <h1 className="text-[50px] py-4">{i.name}</h1>
                 <br></br>
                 <p style={{textIndent: '2rem'}}>{i.objective}</p>
