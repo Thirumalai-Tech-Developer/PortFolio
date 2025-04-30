@@ -1,23 +1,28 @@
 import './App.css';
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Header from './Components/Header';
 import Footer from './Components/Footer';
-import About from './Components/Body/About'
-import Projects from './Components/Body/Projects'
-import Contact from './Components/Body/Contact'
+import About from './Components/Body/About';
+import Projects from './Components/Body/Projects';
+import Contact from './Components/Body/Contact';
 
 function App() {
   return (
-    <div className="App">
-      <BrowserRouter>
+    <div className="App scroll-smooth bg-gray-950 text-white">
       <Header />
-      <Routes>
-        <Route path="/about" element={<About />} />
-        <Route path="/projects" element={<Projects />} />
-        <Route path="/contact" element={<Contact />} />
-      </Routes>
+
+      <section id="about" className="pt-24 scroll-mt-24 scroll-smooth">
+        <About />
+      </section>
+
+      <section id="projects" className="pt-24 scroll-mt-24 scroll-smooth">
+        <Projects />
+      </section>
+
+      <section id="contact" className="pt-24 scroll-mt-24 scroll-smooth">
+        <Contact />
+      </section>
+
       <Footer />
-    </BrowserRouter>
     </div>
   );
 }
