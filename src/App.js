@@ -10,15 +10,15 @@ function App() {
     <div className="App scroll-smooth bg-gray-950 text-white">
       <Header />
 
-      <section id="about" className="pt-24 scroll-mt-24 scroll-smooth">
+      <section id="about" className="pt-24 scroll-mt-24 scroll-smooth duration-700">
         <About />
       </section>
 
-      <section id="projects" className="pt-24 scroll-mt-24 scroll-smooth">
+      <section id="projects" className="pt-24 scroll-mt-24 scroll-smooth duration-700">
         <Projects />
       </section>
 
-      <section id="contact" className="pt-24 scroll-mt-24 scroll-smooth">
+      <section id="contact" className="pt-24 scroll-mt-24 scroll-smooth duration-700">
         <Contact />
       </section>
 
